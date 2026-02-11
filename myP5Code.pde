@@ -19,6 +19,9 @@ setup = function() {
 
   }
 
+
+
+//squiggly line
 //drawSquiggle Function - will run on repeat
   var drawSquiggle = function(squiggleX, squiggleY){
     fill(0,0,0);
@@ -30,12 +33,16 @@ setup = function() {
  };
  
 
-
+//lucky charm marshmallows
 //🟢mouseClicked Function - will run when mouse is clicked
 mouseClicked = function(){
 if(mouseClicked){
-    fill(255, 177, 119);
+    fill(255, 212, 212);
+    textSize(20);
     text("Lucky Charms OVERLOADDDD!", random(0,600), random(0,400));
+    text("🍀", random(0,600), random(0,400));
+    text("💗", random(0,600), random(0,400));
+    text("🦄", random(0,600), random(0,400));
   };
 
 
