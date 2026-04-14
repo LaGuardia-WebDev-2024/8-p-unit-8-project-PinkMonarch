@@ -53,6 +53,7 @@ var drawBalloon = function(balloonX, BalloonY) {
   //var balloonX = 248;
   //var ballonY = 145;
   
+  //balloon
   noStroke();
   fill(255, 117, 117);
   ellipse(balloonX, BalloonY, 65, 80);
